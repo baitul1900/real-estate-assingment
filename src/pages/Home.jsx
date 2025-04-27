@@ -5,6 +5,7 @@ import InfoSection from "../components/ui/InfoSection";
 import ExploreSection from "../components/ui/ExploreSection";
 import DiscoverProperties from "../components/ui/DiscoverProperties";
 import LuxaryAssets from "../components/ui/LuxaryAssets";
+import CertificateCourse from "../components/ui/CertificateCourse";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <ExploreSection />
       <DiscoverProperties />
       <LuxaryAssets/>
+      <CertificateCourse/>
     </>
   );
 };
