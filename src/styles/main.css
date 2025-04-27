@@ -1,0 +1,144 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../assets/font/gilroy/Gilroy-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../assets/font/gilroy/Gilroy-Bold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../assets/font/gilroy/Gilroy-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy", sans-serif;
+  background: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Gilroy", sans-serif;
+  font-weight: bold;
+}
+
+p {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 400;
+}
+
+.nav-link {
+  color: #333;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 6px 16px;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #0195ff;
+  border-radius: 100px;
+  background: #e4f3fe;
+}
+
+.active-item {
+  color: #0195ff;
+  border-radius: 100px;
+  background: #e4f3fe;
+  padding: 6px 16px;
+  text-decoration: none;
+}
+
+.signin-button {
+  padding: 20px 38px;
+  border-radius: 1000px;
+  border: 1px solid #0f8ce9;
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.contact-button {
+  padding: 20px 38px;
+  border-radius: 1000px;
+  background: linear-gradient(90deg, #0f8ce9 0.26%, #66b3fb 99.73%);
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* General Styling for the Hero Section */
+.hero-section {
+  padding-top: 240px !important;
+  height: 840px;
+}
+
+/* Image Styling */
+.hero-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.hero-sub {
+  border-radius: 100px;
+  border: 1px solid #c8e8fe;
+  background: #e4f3fe;
+  padding: 12px 20px;
+}
+
+.hero-sub-text {
+  color: #0195ff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.hero-title {
+  font-size: 68px;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center !important;
+}
+
+.hero-title-span {
+  color: #0195ff;
+}
+
+.hero-paragraph {
+  color: #808080;
+  text-align: center;
+  font-size: 18px;
+}
+
+
+.info-content {
+  background-image: url("../assets/info-section-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
